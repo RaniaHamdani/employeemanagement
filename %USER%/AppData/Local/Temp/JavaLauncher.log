@@ -1,0 +1,36 @@
+[2023/09/16 16:21:46.514, java.exe (PID: 28120, TID: 8928), JavaEnvironment.cpp:502 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2023/09/16 16:21:46.533, java.exe (PID: 28120, TID: 8928), JavaEnvironment.cpp:519 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=; arch=64; productCode={1D1A55AE-520B-5885-B559-6121460FE780}; type=1
+[2023/09/16 16:21:46.533, java.exe (PID: 28120, TID: 8928), JavaEnvironment.cpp:135 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {1D1A55AE-520B-5885-B559-6121460FE780} Java installation
+[2023/09/16 16:21:46.534, java.exe (PID: 28120, TID: 8928), JavaEnvironment.cpp:302 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {1D1A55AE-520B-5885-B559-6121460FE780} Java installation
+[2023/09/16 16:21:46.534, java.exe (PID: 28120, TID: 8928), JavaEnvironment.cpp:213 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({1D1A55AE-520B-5885-B559-6121460FE780})
+[2023/09/16 16:21:46.554, java.exe (PID: 28120, TID: 8928), JavaEnvironment.cpp:481 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(17.0.6+9|17.0.6+9|JDK|64bit|C:\Program Files\Java\jdk-17|{1D1A55AE-520B-5885-B559-6121460FE780}|-10|)
+[2023/09/16 16:21:46.558, java.exe (PID: 28120, TID: 8928), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:502)
+[2023/09/16 16:21:46.579, java.exe (PID: 28120, TID: 8928), Executor.cpp:596 (Executor2::startProcess)]
+	TRACE: CreateProcess(C:\Program Files\Java\jdk-17\bin\java.exe, "C:\Program Files\Java\jdk-17\bin\java.exe" -jar your-application.jar --debug) succeeded; PID=17832
+[2023/09/16 16:21:46.596, java.exe (PID: 28120, TID: 8928), Executor.cpp:557 (Executor2::execAndWait)]
+	TRACE: Process with PID=17832 terminated. Exit code=1
+[2023/09/16 16:22:40.917, java.exe (PID: 18936, TID: 17140), JavaEnvironment.cpp:502 (JavaEnvironment::detect)]
+	TRACE: Entering JavaEnvironment::detect
+[2023/09/16 16:22:40.942, java.exe (PID: 18936, TID: 17140), JavaEnvironment.cpp:519 (JavaEnvironment::detect)]
+	TRACE: Installed Java detected: version=; arch=64; productCode={1D1A55AE-520B-5885-B559-6121460FE780}; type=1
+[2023/09/16 16:22:40.942, java.exe (PID: 18936, TID: 17140), JavaEnvironment.cpp:135 (`anonymous-namespace'::detectHomeDir)]
+	TRACE: Find home dir of {1D1A55AE-520B-5885-B559-6121460FE780} Java installation
+[2023/09/16 16:22:40.943, java.exe (PID: 18936, TID: 17140), JavaEnvironment.cpp:302 (`anonymous-namespace'::detectFullVersion)]
+	TRACE: Detect full version of {1D1A55AE-520B-5885-B559-6121460FE780} Java installation
+[2023/09/16 16:22:40.943, java.exe (PID: 18936, TID: 17140), JavaEnvironment.cpp:213 (`anonymous-namespace'::detectFullVersionFromMsi)]
+	TRACE: detectFullVersionFromMsi({1D1A55AE-520B-5885-B559-6121460FE780})
+[2023/09/16 16:22:40.951, java.exe (PID: 18936, TID: 17140), JavaEnvironment.cpp:481 (`anonymous-namespace'::getInstalledJava)]
+	TRACE: InstalledJava(17.0.6+9|17.0.6+9|JDK|64bit|C:\Program Files\Java\jdk-17|{1D1A55AE-520B-5885-B559-6121460FE780}|-10|)
+[2023/09/16 16:22:40.956, java.exe (PID: 18936, TID: 17140), JavaEnvironment.cpp:0 (JavaEnvironment::detect)]
+	TRACE: Exiting JavaEnvironment::detect (entered at JavaEnvironment.cpp:502)
+[2023/09/16 16:22:40.969, java.exe (PID: 18936, TID: 17140), Executor.cpp:596 (Executor2::startProcess)]
+	TRACE: CreateProcess(C:\Program Files\Java\jdk-17\bin\java.exe, "C:\Program Files\Java\jdk-17\bin\java.exe" -jar your-application.jar --debug) succeeded; PID=31284
+[2023/09/16 16:22:40.985, java.exe (PID: 18936, TID: 17140), Executor.cpp:557 (Executor2::execAndWait)]
+	TRACE: Process with PID=31284 terminated. Exit code=1
